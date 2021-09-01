@@ -1,0 +1,3 @@
+DROP DATABASE bdpeliculas;
+\i /home/karen/Escritorio/Proyecto_SistemasGestoresdeBasesdeDatos/archive/1creatablas.sql
+\i /home/karen/Escritorio/Proyecto_SistemasGestoresdeBasesdeDatos/archive/2BulkLoad.sql
