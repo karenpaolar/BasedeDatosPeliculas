@@ -1,0 +1,14 @@
+CREATE UNIQUE INDEX index_actores
+ON actores (credit_id, id_persona ,nombres ,id_movie);
+
+CREATE UNIQUE INDEX index_crew
+ON crew (credit_id, id_persona, nombres, trabajo, id_movie);
+
+CREATE UNIQUE INDEX index_genero
+ON genero (id, id_genero, Genero);
+
+CREATE UNIQUE INDEX index_peliculas
+ON peliculas (id ,nombrepelicula);
+
+CREATE UNIQUE INDEX index_votos
+ON votos (id, promedio_votos, total_votos);
