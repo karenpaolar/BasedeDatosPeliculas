@@ -1,0 +1,10 @@
+DROP DATABASE bdpeliculas;
+\r
+\timing
+\i /6creatablas.sql
+\i /actores.sql
+\i /crew.sql
+\i /peliculas.sql
+\i /genero.sql
+\i /votos.sql
+

@@ -1,0 +1,17 @@
+Para replicar la base de datos primero es necesario descargar los archivos de películas de <https://www.kaggle.com/rounakbanik/the-movies-dataset>. 
+Después seguimos los archivos de 1 al 5 aquí se generan los csv separados. 
+Luego entramos a postgreSQL y ejecutamos 6.
+Si queremos insertar los datos con Bulk Load ejecutamos 7.
+Pero si queremos insertar los datos con insert ejecutamos los 5 scripts en Python con número 8 para convertir los archivos csv en sql, y en la terminal se ejecuta lo que dice el 8INSERT.txt.
+En 9 están las consultas de las 7 preguntas.
+Y por último 10 índica como crear los índices.  
+
+
+Comandos importantes:
+
+Entrar a postgresql ---> psql -U postgres
+salir de la base de datos --> \q
+Entrar a la base de datos --> \c bdpeliculas;
+Eliminar base de datos --> DROP DATABASE bdpeliculas;
+Tomar el tiempo --> \timing
+cold start --> \r
