@@ -15,7 +15,7 @@ ORDER BY pregunta2 DESC LIMIT 1;
 SELECT peliculas.nombrepelicula, COUNT(id_persona) AS pregunta3
 FROM actores, peliculas
 WHERE peliculas.id = actores.id_movie
-GROUP BY nombrepelicula
+GROUP BY peliculas.id
 ORDER BY pregunta3 DESC LIMIT 1;
 
 SELECT crew.nombres, COUNT(id_persona) AS pregunta4
